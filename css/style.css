@@ -1,0 +1,114 @@
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+html, body {
+    height:100%;
+}
+
+#container-main {
+    background: url("../images/background-flat.png");
+    background-position: center;
+    background-size:cover;
+}
+
+.container {
+    height: 100vh;
+    background: #050231;
+    width: 100%;
+}
+
+.typed-text-container {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    text-shadow: #000 0px 2px 4px;
+    
+    position: relative;
+  top: 50%;
+  transform: translateY(-100%);
+}
+
+.element {
+    display: inline-block;
+}
+
+.test {
+    font-size: 20px;
+}
+
+.title-name {
+    z-index: -1;
+    display: inline-block;
+    color: white;
+    text-shadow: #000 0px 2px 4px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.hello {
+    display: block;
+    margin: 0 auto;
+    color: #000;
+    padding: 10px 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color: white;
+    font-weight: 200;
+}
+
+* {
+   transition: width 2s;
+}
+
+#nav {
+    position: fixed;
+    text-align: center;
+    right: 0;
+    top: 12px;
+    margin: 0 20px 0 0;
+    float: right;
+/*    position: fixed;*/
+    z-index: 99;
+}
+
+#nav-container {
+    
+}
+
+/* TODO: Edit navbar edit nav-bar */
+
+
+
+/*
+#nav .container-fluid {
+    background: none;
+    text-shadow: none;
+    
+    opacity: 0.7;
+}
+*/
+
