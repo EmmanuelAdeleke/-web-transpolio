@@ -30,6 +30,14 @@ html, body {
     background-size:cover;
 }
 
+#container-work {
+    height: auto;
+}
+
+#container-about {
+    
+}
+
 .container {
     height: 100vh;
     background: #050231;
@@ -81,7 +89,7 @@ h1 {
 }
 
 * {
-   transition: width 2s;
+   transition: width 0.9s;
 }
 
 #nav {
@@ -112,3 +120,43 @@ h1 {
 }
 */
 
+
+
+.work-pic {
+    
+    max-width: 80%;
+    max-height: 60%;
+}
+
+#work-wrapper {
+    padding: 10px;
+}
+
+.work {
+    padding: 5px;
+/*    background: #1D1345;*/
+    color: #C0C0C0;
+/*    border: 1px solid white;*/
+    text-align: center;
+    
+}
+
+.tech-stack {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.work:hover {
+    opacity: 0.8;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.skill {
+    display: inline;
+    width: 20px;
+    margin-right: 10px;
+    fill: white;
+}
